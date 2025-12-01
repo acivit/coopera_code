@@ -29,16 +29,16 @@ CUDA_VISIBLE_DEVICES="x,y,..." python coopera_main/benchmark/main.py [OPTIONS]
 CUDA_VISIBLE_DEVICES="x,y,..." python coopera_main/benchmark/prompting.py [OPTIONS]
 
 # Direct Finetuning
-# [Coming Soon]
+CUDA_VISIBLE_DEVICES="x,y,..." python coopera_main/benchmark/finetuning.py [OPTIONS]
 
 # Oracle
 CUDA_VISIBLE_DEVICES="x,y,..." python coopera_main/benchmark/oracle.py [OPTIONS]
 
 # Random
-# [Coming Soon]
+CUDA_VISIBLE_DEVICES="x,y,..." python coopera_main/benchmark/random_.py [OPTIONS]
 
 # Intention Agnostic
-# [Coming Soon]
+CUDA_VISIBLE_DEVICES="x,y,..." python coopera_main/benchmark/ag_intent.py [OPTIONS]
 
 # Human & Context Agnostic
 CUDA_VISIBLE_DEVICES="x,y,..." python coopera_main/benchmark/ag_human.py [OPTIONS]
