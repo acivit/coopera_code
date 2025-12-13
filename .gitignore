@@ -1,6 +1,6 @@
 env/
 habitat-sim/
-habitat-lab/
+# habitat-lab/
 __pycache__/
 *.pyc
 *.pyo
