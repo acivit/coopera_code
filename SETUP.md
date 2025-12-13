@@ -9,17 +9,19 @@
 
 COOPERA depends on specific versions of `habitat-sim` and our forked `habitat-lab`. Please follow the steps below.
 
-## 1. Clone the Repositories
+## 1. Clone COOPERA (with submodules)
 
 ```bash
-git clone https://github.com/dannymcy/coopera_code.git
+git clone --recurse-submodules https://github.com/dannymcy/coopera_code.git
 cd coopera_code
 ```
 
-## 2. Clone Our Forked Habitat-Lab
+## 2. Initialize submodules (optional)
+
+If you already cloned without --recurse-submodules, run:
 
 ```bash
-git clone https://github.com/dannymcy/habitat-lab.git habitat-lab
+git submodule update --init --recursive
 ```
 
 After this step, your structure should look like:
@@ -28,7 +30,7 @@ After this step, your structure should look like:
 coopera_code/
 ├── README.md
 ├── setup.md
-├── habitat-lab/        ← our fork (0.3.1-based)
+├── habitat-lab/        ← our fork (as a submodule, 0.3.1-based)
 └── ...
 ```
 
