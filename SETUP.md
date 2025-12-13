@@ -18,7 +18,7 @@ cd coopera_code
 
 ## 2. Initialize submodules (optional)
 
-If you already cloned without --recurse-submodules, run:
+If you accidentally cloned without --recurse-submodules, run:
 
 ```bash
 git submodule update --init --recursive
